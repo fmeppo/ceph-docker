@@ -4,8 +4,8 @@
 #
 # VERSION 0.0.1
 
-FROM ceph/base
-MAINTAINER Sébastien Han "seb@redhat.com"
+FROM fmeppo/ceph-base:infernalis
+MAINTAINER Mike Shuey "shuey@fmepnet.org"
 
 # patch is only needed until PR #7351 is merged in ceph/ceph (and backported
 # to the version used in ceph/ceph-docker)
